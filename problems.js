@@ -21,7 +21,14 @@ if (last3==".js"){
     return false;
 }
 }
-const output=isJavaScriptFile("Shakil.m");
+const output=isJavaScriptFile("Shakil.js.lkm");
 console.log(output);
 
 // ==========================
+
+// Problem-3 
+function oilPrice(disel, petrol, octen){
+    let sum = (disel*114)+(petrol*130)+(octen*135);
+    return sum;
+}
+console.log(oilPrice(1, 1 , 1));
